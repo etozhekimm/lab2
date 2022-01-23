@@ -1,0 +1,6 @@
+name = input("What is your name? ")
+age = input("How old are you? ")
+place = input("where do you live? ")
+print("This is ", name)
+print("(S)he is ", age)
+print("(S)he lives in ", place)
