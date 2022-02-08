@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 def func(func_type: str):
     def inner(value):
         gen = (e for e in value.split())
