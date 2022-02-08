@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 def mid_harm(*args):
     if args:
         values = [float(arg) for arg in args]

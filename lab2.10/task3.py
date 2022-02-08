@@ -1,17 +1,20 @@
-def book(author, **books):
-    print(f"Author: {author}")
-    for books, name in books.items():
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+def film(director, **films):
+    print(f"Режиссёр: {director}")
+    for films, name in films.items():
         print(f"{name}")
 
 
 if __name__ == '__main__':
-    book(
-        "Э. М. Ремарк",
-        book1="На западном фронте без перемен",
-        book2="Триумфальная арка",
-        book3="Три товарища"
+    film(
+        "Квентин Тарантино",
+        book1="Бешеные псы",
+        book2="Криминальное чтиво",
+        book3="Омерзительная восьмерка"
     )
-    book(
-        "М. Ю. Лермонтов",
-        book1="Герой нашего времени"
+    film(
+        "Дэвид Финчер",
+        book1="Бойцовский клуб"
     )
