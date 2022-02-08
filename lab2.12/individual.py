@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 def start_func(text1, text2):
     return text1.split(), text2.split()
 
