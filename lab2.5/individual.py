@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import sys
 
 if __name__ == '__main__':
@@ -6,7 +9,7 @@ if __name__ == '__main__':
         print("Заданный кортеж пуст", file=sys.stderr)
         exit(1)
 
-if tuple(sorted(tpl, reverse = True)) == tpl:
-    print("Команды перечислены в соответствии с занятыми местами")
-else:
-    print("Команды перечислены не в соответствии с занятыми местами")
+    if tuple(sorted(tpl, reverse=True)) == tpl:
+        print("Команды перечислены в соответствии с занятыми местами")
+    else:
+        print("Команды перечислены не в соответствии с занятыми местами")
