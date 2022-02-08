@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 if __name__ == "__main__":
     A = set("abhkor")
     B = set("bghls")
