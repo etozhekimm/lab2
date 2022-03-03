@@ -43,24 +43,13 @@ if __name__ == '__main__':
     number = int(input("Enter the number to calculate: "))
     start_time = timeit.default_timer()
     factorial_rec(number)
-    print("Recursive factorial time is: ",
-          timeit.default_timer() - start_time
-          )
-
+    print("Recursive factorial time is: ", timeit.default_timer() - start_time)
     start_time = timeit.default_timer()
     factorial_iter(number)
-    print("Iterative factorial time is :",
-          timeit.default_timer() - start_time
-          )
-
+    print("Iterative factorial time is :", timeit.default_timer() - start_time)
     start_time = timeit.default_timer()
     fib_rec(number)
-    print("Recursive Fibonacci time is :",
-          timeit.default_timer() - start_time
-          )
-
+    print("Recursive Fibonacci time is :", timeit.default_timer() - start_time)
     start_time = timeit.default_timer()
     fib_iter(number)
-    print("Iterative Fibonacci time is :",
-          timeit.default_timer() - start_time
-          )
+    print("Iterative Fibonacci time is :", timeit.default_timer() - start_time)
